@@ -96,5 +96,6 @@ ul li:not(:last-child) a:hover, ul li a.active {
         height: 320px;
         gap: 24px;
         background-color:rgb(148, 24, 24) ;
+        z-index: 1;
     }
 }
