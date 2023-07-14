@@ -20,3 +20,5 @@ function nextSlide() {
 }
 
 setInterval(nextSlide, 5000);
+
+// carousel gastromine

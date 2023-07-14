@@ -1,3 +1,4 @@
+/* free section */
 .first-section{
   width: 100%;
   height: 100%;
@@ -50,6 +51,7 @@
   align-items: center;
   justify-content: center;
 }
+/* ******* two section  ****/
 
 .two-section{
   margin-top: 1.5%;
@@ -183,6 +185,178 @@
   transform: translate(-50%, -50%) scale(2);
 }
 
+/* troisième section  */
+
+.section{
+  width: 100%;
+  height: 100%;
+  color: #000;
+
+  border: 2px solid rgb(5, 84, 46);
+
+}
+
+/* Styles pour la section de héros */
+/* .hero-section {
+  background-image: url('chemin/vers/image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+} */
+
+/* .hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+} */
+
+/* .hero-content .btn {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+/* Styles pour les autres sections */
+.section {
+  padding: 4rem 0;
+  text-align: center;
+  
+}
+
+.cardee{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cardd {
+  width: 400px;
+  height: 300px;
+  border-radius: 10%;
+  background: rgb(26, 16, 16);
+  transition: all 300ms;
+ }
+ .cardd img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10%;
+ }
+
+ .cardd:hover {
+  opacity: 0.8;
+  transform: scale(1.10);
+ }
+ 
+ /* carousel gastromine */
+ 
+
+/* fin de carousel */
+ 
 
 
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  color: rgb(242, 232, 232);
+}
+/* cartes villes */
+.card_ville{
+  max-width: 400px;
+  border-radius: 0.5rem;
+  background-color:#fff;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  box-shadow: 2px 3px 4px 2px rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+}
+
+.card_ville a {
+  text-decoration: none
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+ 
+}
+
+.title {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 0.5rem;
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #e19191;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563EB;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: .3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
+/*****/
+
+.section-content h2 {
+  color: #000;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-content p {
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.section-content .btn {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
 

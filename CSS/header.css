@@ -9,6 +9,10 @@
     color: #fff;
 }
 
+.logo a{
+    text-decoration: none;
+}
+
 header nav  {
     display: flex;
     justify-content: space-between;
