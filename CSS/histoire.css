@@ -3,3 +3,19 @@
    height: 300px;
     background-color: rgb(32, 160, 183);
 }
+
+/* Styles de la section histoire */
+.history {
+    padding: 20px;
+  }
+  
+  .history h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .history p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  

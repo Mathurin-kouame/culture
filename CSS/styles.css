@@ -196,41 +196,6 @@
 
 }
 
-/* Styles pour la section de héros */
-/* .hero-section {
-  background-image: url('chemin/vers/image.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-} */
-
-/* .hero-content {
-  text-align: center;
-}
-
-.hero-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.hero-content p {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-} */
-
-/* .hero-content .btn {
-  display: inline-block;
-  background-color: #ff9900;
-  color: #fff;
-  padding: 1rem 2rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-} */
 
 /* Styles pour les autres sections */
 .section {
