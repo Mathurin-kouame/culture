@@ -1,17 +1,18 @@
 /* Modèle 1 */
 .cont-elm {
-  display: flex;
+   display: flex;
     padding: 10px;
     text-align: center;
+    color: #fff;
     /* border: 1px solid rgb(184, 22, 22); */
 }
 
-.cont-elm h3 {
-   padding: 10px;
-   margin-left: -28%;
+.btn-abonez h3 {
+    text-align: center;
 }
 
 .btn-abonez{
+    color: #fff;
     padding: 20px;
     background-color: rgb(71, 14, 14);
     
@@ -122,6 +123,7 @@
 
 
 .card_logo {
+  flex-wrap: wrap;
   width: fit-content;
   height: fit-content;
   /* background-color: rgb(238, 238, 238); */
@@ -129,14 +131,14 @@
   align-items: center;
   justify-content: center;
   padding: 25px 25px;
-  gap: 20px;
+  gap: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
 }
 
 /* for all social containers*/
 .socialContainer {
-  width: 52px;
-  height: 52px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: rgb(205, 6, 6);
   display: flex;
@@ -197,11 +199,18 @@
 
 
 
-
+.logo_sociaux .socio{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
 
 .logo_sociaux img {
-  width: 60px;
+  width: 100%;
   border-radius: 200px;
+  
 }
 
 .footer-bottom {

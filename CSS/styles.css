@@ -317,6 +317,10 @@
   /* border: 2px solid rgb(189, 127, 4); */
 }
 
+
+.section-content h2 {
+  text-align: center;
+}
 /* face */
 .card-facce {
   margin-top: 2%;
